@@ -1,0 +1,102 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 80px;
+    margin: 0 10%;
+   
+    background-color: #F3F4F9;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.first{
+   display: flex;
+   
+   align-items: center;
+   width: 80%;
+   margin: 0 10%;
+   justify-content: space-between;
+}
+
+.name img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.functbtn{
+  
+    width: 80%;
+    margin: 0 10%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F4F9;
+    border-radius: 10px;
+}
+
+
+.functbtn button{
+    border: none;
+    margin: 5px;
+    border-radius: 50%;
+    height: 70%;
+}
+
+.functbtn button:hover{
+    background-color: #5D5DEF;
+    cursor: pointer;
+}
+
+.radiobtn{
+    background-color: #ffffff;
+}
+
+.selected{
+    background-color: #5D5DEF;
+}
+
+.exercise{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 10%;
+    padding: 3px;
+    background-color: #F3F4F9;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.breaks{
+    width: 80%;
+    margin: 25px 10%;
+}
+
+.exDetails{
+    width: 80%;
+    margin: 25px 10%;
+}
+
+
+.addBreak{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 10%;
+    padding: 3px;
+    background-color: #F3F4F9;
+    border-radius: 10px;
+}
+
+.total{
+    padding: 20px;
+}
